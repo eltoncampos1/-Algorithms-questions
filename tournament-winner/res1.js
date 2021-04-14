@@ -25,3 +25,13 @@ function updateScores(team, points, scores) {
 
   scores[team] += points;
 }
+
+competitions = [
+  ["java", "c"],
+  ["c", "python"],
+  ["python", "java"],
+];
+
+results = [0, 0, 1];
+
+console.log(tournamentWinner(competitions, results));
