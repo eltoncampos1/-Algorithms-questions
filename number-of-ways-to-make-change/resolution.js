@@ -1,3 +1,5 @@
+// O(nd) time | O(n) space
+
 function numberOfWaysToMakeChange(n, denoms) {
   const ways = new Array(n + 1).fill(0);
   ways[0] = 1;
